@@ -27,7 +27,7 @@ RUN xbuild OwinSelfHosted.sln /p:DefineConstants=LINUX
 EXPOSE 9000
 
 # Start de application using mono!!!
-ENTRYPOINT ["mono", "OwinSelfHosted/OwinSelfHosted/bin/Debug/OwinSelfHosted.exe"]
+ENTRYPOINT ["mono", "OwinSelfHosted/bin/Debug/OwinSelfHosted.exe"]
 
 
 
