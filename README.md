@@ -7,6 +7,5 @@ There is no need to clone the repo ...
 <br>Then run `docker run -d -h localhost -p 9000:9000 owin-web-service` to run the image in a container
 <br>You can then navigate to or curl the API at `http://localhost:9000/api/example`
 
-<p>
-You can stop and remove the container with `docker rm $(docker ps -a -q  --filter ancestor=owin-web-service) -f`
-</p>
+
+<br><br>You can stop and remove the container with `docker rm $(docker ps -a -q  --filter ancestor=owin-web-service) -f`
