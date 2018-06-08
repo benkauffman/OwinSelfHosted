@@ -11,5 +11,5 @@ There is no need to clone the repo ...
 
 <br>You can then navigate to or curl the API at `http://localhost:9000/api/example`
 
-<br>You can stop and remove the container with
+<br>You can stop and remove the container with:
   <br>`docker rm $(docker ps -a -q  --filter ancestor=owin-web-service) -f`
